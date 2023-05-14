@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom left, #1bd622, #1b31d6);
+}
+
+.wrapper {
+    background: linear-gradient(340deg, #4b71c6,#c64343);
+    width: 30%;
+    max-width: 600px;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    padding: 50px;
+}
+
+header {
+    margin: 10px
+}
+
+.input-field input {
+    width: 50%;
+    border-radius: 20%;
+    padding: 15px 5px;
+    border: 300px;
+}
+
+.input-field button {
+    width: 40%;
+    border-radius: 20%;
+    padding: 15px 5px;
+    border: 300px;
+    background: orange;
+    margin: 0px 5px
+
+}
+
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+    display: none;
+}
+.input-field imput:disabled{
+    cursor: not-allowed;
+}
